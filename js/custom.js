@@ -3,7 +3,6 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 (function($) {
-	
 // start function mobile navigation
 mobile_nav = function(){
     var mb;
