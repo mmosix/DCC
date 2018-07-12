@@ -810,10 +810,5 @@
     $('.preloader').delay(350).fadeOut('slow'); 
   });  
 
-  // Right click disable
-  $(document).bind("contextmenu", function (e) {
-        e.preventDefault();
-	alert("Right Click is Disabled");
-  });
 
 })(jQuery);
