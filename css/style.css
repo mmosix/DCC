@@ -64,7 +64,7 @@
 		/*===== Typography =====*/
 /* ================================= */
 body {  
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 22.5px;
   color: #606060;
@@ -77,7 +77,7 @@ body {
   height: 100%;
 }
 h1, h2, h3, h4, h5, h6 { 
-  font-family: 'Playfair Display', serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -532,7 +532,7 @@ ul {
   box-shadow: 0 1px 15px rgba(0,0,0,0.2);
 }
 .top-nav-collapse #cssmenu > ul > li > a {  
-  padding: 26px 20px 28px;
+  padding: 46px 15px 48px 5px;
 }
 .top-nav-collapse .logo {
   margin-top: 15px;
@@ -728,6 +728,47 @@ ul {
   }
 }
 
+.tg-btnarea .tg-btn + .tg-btn{margin:0 0 0 25px;}
+.tg-videoarea{
+  width:100%;
+  float:left;
+}
+.tg-videoarea figure{
+  margin:0;
+  width:100%;
+  float:left;
+  position:relative;
+  padding:0 0 30px 30px;
+}
+.tg-videoarea figure:before{
+  left:0;
+  bottom:0;
+  z-index:-1;
+  content:'';
+  width:95%;
+  height:90%;
+  position:absolute;
+  background:#f7f7f7;
+}
+.tg-videoarea figure > img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.tg-videoarea figure figcaption{
+  left:-10px;
+  bottom:-10px;
+  overflow:hidden;
+  border-radius:50%;
+  position:absolute;
+  -webkit-box-shadow: 1px 1px 12px 0 rgba(68,67,73,0.30);
+  box-shadow: 1px 1px 12px 0 rgba(68,67,73,0.30);
+}
+.tg-videoarea figure figcaption a{
+  display:block;
+  background:#fff;
+}
+ 
 /* ================================= */
     /*===== About =====*/
 /* ================================= */
@@ -3404,6 +3445,10 @@ ul {
 .footer-logo {
   padding-top: 75px;
   padding-bottom: 25px;
+}
+
+.footer-logo h3 {
+  color: #fefefe;
 }
 .footer-main-block .overlay-bg {
   background: rgba(0,0,0,0.9);
