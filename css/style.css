@@ -281,7 +281,6 @@ ul {
   text-align: center;
 }
 .section-heading:after {
-  content: url(../images/icons/after.png);
   position: absolute;
   margin-top: 35px;
   left: 0;
@@ -3246,6 +3245,7 @@ ul {
 }
 /*===== Pastor quote =====*/
 .pastor-quote-main-block {
+  margin-top: 100px;
   margin-bottom: 76px;
 }
 .pastor-quote-block {
