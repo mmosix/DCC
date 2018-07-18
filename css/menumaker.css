@@ -55,8 +55,8 @@ x#cssmenu,
   /*border-top: 2px solid #9037ff; */
 }
 #cssmenu > ul > li.has-sub > a {
-  padding-right: 18px;
-  padding-left: 18px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 #cssmenu ul ul {
   position: absolute;
@@ -170,7 +170,7 @@ x#cssmenu,
 #cssmenu.small-screen #menu-button {
   display: block;
   padding: 17px;
-  color: #9037ff;
+  color: #ffffff;
   cursor: pointer;
   font-size: 12px;
   text-transform: uppercase;
