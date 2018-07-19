@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+body {
+    font-family: "Varela Round", "Raleway", SansSerif!important;
+}
+
+#cssmenu > ul > li > a
+{
+    padding: 38px 25px 33px 25px;
+}
+
+.top-nav-collapse #cssmenu > ul > li > a {
+    /*padding: 38px 25px 33px 25px!important;*/
+}
+
+.event-counter-blockOne .event-counter-block {
+    padding-top: 34px;
+    padding-bottom: 35px;
+}

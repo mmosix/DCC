@@ -42,7 +42,7 @@ x#cssmenu,
   font-weight: 500;
   border-top: 2px solid transparent;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 #cssmenu ul li:last-child a{
   padding-right: 0;
@@ -95,7 +95,7 @@ x#cssmenu,
   margin-right: 100%;
 }
 #cssmenu ul ul li a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 15px 15px!important;
   width: 225px;

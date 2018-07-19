@@ -64,7 +64,7 @@
 		/*===== Typography =====*/
 /* ================================= */
 body {  
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 22.5px;
   color: #606060;
@@ -77,7 +77,7 @@ body {
   height: 100%;
 }
 h1, h2, h3, h4, h5, h6 { 
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -97,13 +97,13 @@ h4 {
   font-size: 25px;
 }
 h5 {  
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400;
   font-size: 19.8px;  
   color: #606060;
 }
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -125,7 +125,7 @@ a:active {
   text-decoration: none;
 }
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400; 
   color: #606060;
   font-size: 16.2px;
@@ -519,8 +519,8 @@ ul {
 }
 
 .logo {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 .nav-bar .donate-btn .btn {
   margin-top: 40px !important;
